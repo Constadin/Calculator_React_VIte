@@ -1,0 +1,45 @@
+
+.cont-All{
+    background: rgb(50, 50, 48);
+    max-width: 20rem;
+}
+#message-container {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    display:none;
+}
+.calcul{
+    max-width: 18rem;
+    box-shadow: 3px -2px 4px whitesmoke , -2px -3px 4px rgb(99, 93, 93);
+}
+.display{
+    box-shadow: 3px 0px 3px rgb(180, 180, 180), -2px 0px 3px rgb(180, 180, 180);
+}
+
+.container-keyboard{
+    box-shadow: 3px 0px 3px rgb(180, 180, 180), -2px 0px 3px rgb(180, 180, 180);
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 1%;
+    
+}
+@media screen  and (max-width: 275px){
+
+    .calcul{
+        display: none;
+    }
+    #message-container {
+        display:block;
+    }
+}
+    
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: landscape) and (not (orientation: portrait)) {
+    .cont-All {
+        transform: rotate(90deg);
+    }
+}
+
+.developer{
+    padding: 20px;
+}
